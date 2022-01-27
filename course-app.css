@@ -1,0 +1,155 @@
+.alert{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-right: 200px;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    border-radius: 5px;
+}
+.alert-warning{
+    background-color: #fcefa7;
+    color: #665c04;
+    margin-bottom: 5px;
+}
+
+.alert-success{
+    background-color: #94f18b;
+    color: #07ff07;
+    margin-bottom: 5px;
+}
+.alert-danger{
+    background-color: #f1b1b1;
+    color: #811f1f;
+    margin-bottom: 5px;
+}
+.row{
+    display: flex;
+}
+.header{
+    background-color: beige;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    height: 350px;
+}
+.form-group{
+    font-size: 22px;
+    margin: 0px 20px 20px 20px;
+}
+.form-control{
+    height: 30px;
+    width: 400px;
+    display: block;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: #15ff00;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.body{
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.table{
+    width: 900px;
+    background-color: #f0f0f0;
+}
+#table-header{
+    background-color: #e60ec9;
+    
+}
+.course-th{
+    padding: 5px;
+    color: #fff;
+    font-size: 22px;
+    text-align: start;
+    border-radius: 5px;
+}
+.delete-th{
+    width: 50px;
+    border-radius: 5px;
+}
+.btn-delete{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-delete:hover{
+    opacity: .6;
+}
+
+.img-box{
+    width: 250px;
+    border-left: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2; 
+    padding-left: 10px;
+}
+.list-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.list-title{
+    width: 200px;
+    font-size: 25px;
+    border-bottom: 1px solid #c2c2c2;
+    font-weight: bold;
+}
+
+.list-intructor{
+    width: 100px;
+    font-size: 20px;
+    border-bottom: 1px solid #c2c2c2;
+    border-left: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+.list-dlt{
+    border: 1px solid #c2c2c2;
+    border-top: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

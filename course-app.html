@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="course-app.css">
+    <title>Course App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Course App</h1>
+        <hr>
+        <div class="row">
+            <div class="header">
+                <form id="new-course">
+                    <div class="form-group">
+                        <label for="title"> Course Title</label>
+                        <input type="text" class="form-control" id="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="title"> Instructor</label>
+                        <input type="text" class="form-control" id="instructor">
+                    </div>
+                    <div class="form-group">
+                        <label for="title"> Image</label>
+                        <input type="text" class="form-control" id="image" accept="image/png, image/jpeg" >
+                    </div>
+                    <button type="submit" class="btn-primary">Save</button>
+                </form>
+            </div>
+            <div class="body">
+                <table class="table">
+                    <thead id="table-header">
+                        <tr>
+                            <th class="course-th course-img">Image</th>
+                            <th class="course-th">Title</th>
+                            <th class="course-th">Instructor</th>
+                            <th  class="delete-th"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="course-list"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="course-appES6.js"></script>
+</body>
+</html>
